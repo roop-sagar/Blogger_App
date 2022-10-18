@@ -1,0 +1,97 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 2%;
+  
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input,textarea{
+    width: 90%;
+    padding: 1%;
+}
+select{
+    width: 93%;
+    padding: 1%;
+}
+button{
+    padding: 2%;
+    width: 25%;
+    background-color: rgb(82, 71, 238);
+    border: none;
+    border-radius: 6%;
+    color: white;
+}
+#left{
+    float: left;
+    width: 30%;
+    background-color: rgb(230, 225, 225);
+    padding: 3%;
+    font-size: larger;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+#right{
+    width: 55%;
+    padding: 3%;
+    margin-left: 38%;
+    font-size: larger;
+    padding-top: 1%;
+    
+    
+}
+#edit{
+    background-color: rgb(202, 199, 199);
+    color: green;
+    border: 1px solid green;
+    padding: 1%;
+    margin: 1%;
+    width: 15%;
+    cursor: pointer;
+}
+#del{
+    background-color: rgb(202, 199, 199);
+    color: red;
+    border: 1px solid red;
+    padding: 1%;
+    margin: 1%;
+    width: 15%;
+    cursor: pointer;
+}
+#posts{
+    width: 95%;
+    margin-bottom: 2%;
+}
+#row2{
+    background-color: rgb(230, 225, 225);
+    padding: 1%;
+}
+
+#row{
+    background-color: rgb(202, 199, 199);
+    padding: 1%;
+}
+#spl{
+    
+    width: 30%;
+    display: inline;
+    padding: 3%;
+    font-size: larger;
+    padding-top: 1%;
+}
+#spl2{
+    width: 55%;
+    padding: 3%;
+    margin-left: 26%;
+    font-size: larger;
+    padding-top: 1%;
+    display: inline;
+}
