@@ -2,4 +2,4 @@
 
 ### `npm run dev`
 
-runs both frontend and backend
+runs both client and server
