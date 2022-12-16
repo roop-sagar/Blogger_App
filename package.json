@@ -6,8 +6,8 @@
   "scripts": {
     "server" : "nodemon server",
     "client" : "npm start --prefix client",
-    "install" : "npm install --prefix client",
-    "build" : "concurrently \"npm run install\" \"npm run server\" \"npm run client\" ",
+    "clientbuild" : "npm build --prefix client",
+    "build" : "concurrently \"npm run server\" \"npm run clientbuild\" ",
     "dev" : "concurrently \"npm run server\" \"npm run client\" ",
     "test" : "nodemon test"
   },
